@@ -3,7 +3,7 @@ is_site_index: true
 ---
 
 
-# Welcome
+# Wellness and Weight Management for Women
 
 Magnolia Bee and Me provides comprehensive health care and preventive screening services tailored to meet each woman's needs.
 
@@ -37,4 +37,4 @@ Symptom and medical history assessment
 
 # About
 
-
+Office located at: 1949 W Ray Rd Suite 9, Chandler, AZ 85224
