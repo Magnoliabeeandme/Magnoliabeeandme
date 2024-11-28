@@ -1,23 +1,21 @@
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
 
-<!-- site wide footer -->
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
 
-<footer>
-    <div class="container">
-        <p>X157 &copy; 2023</p>
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
+</div>
 
-        <p>
-            Github:
-            <a href="https://github.com/x157/x157.github.io">source</a>
-            |
-            <a href="https://github.com/x157/x157.github.io/issues">issues</a>
-        </p>
-
-        <p>
-            Twitter: <a href="https://twitter.com/_x157_">@_x157_</a>
-            |
-            UE Forum: <a href="https://forums.unrealengine.com/u/xi57">xi57</a>
-            |
-            YouTube: <a href="https://www.youtube.com/c/XistGG">XistGG</a>
-        </p>
-    </div>
-</footer>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} <a href="{{ site.copyright_url | default: site.url }}">{{ site.copyright | default: site.title }}</a>. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
