@@ -21,7 +21,11 @@ title                    : "Magnolia Bee and Me"
 title_separator          : "-"
 subtitle                 : Wellness and Weight Management for Women # site tagline that appears below site title in masthead
 name                     : #"Your Name"
-description              : "An amazing website."
+description              : Magnolia Bee and Me provides comprehensive health care and preventive screening services tailored to meet each woman's needs.
+
+Care is provided in a comfortable environment for women with health concerns.
+
+Service is given for women in all stages of life. To give each woman the most thorough and appropriate care, referrals to other specialties are made as necessary. #"An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
