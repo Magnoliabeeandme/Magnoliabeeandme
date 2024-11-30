@@ -31,7 +31,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : repository: "magnoliabeeandme/magnoliabeeandme"
 teaser                   : "/assets/images/screenshot.png"
 logo                     : "/assets/images/screenshot.png"
-masthead_title           : "/assets/images/screenshot.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 header:
   image: "/assets/images/screenshot.png"
 breadcrumbs              : # true, false (default)
