@@ -26,12 +26,12 @@ description              : "Magnolia Bee and Me provides comprehensive health ca
 Care is provided in a comfortable environment for women with health concerns.
 
 Service is given for women in all stages of life. To give each woman the most thorough and appropriate care, referrals to other specialties are made as necessary."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://magnoliabeeandme.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : repository: "magnoliabeeandme/magnoliabeeandme"
 teaser                   : "/assets/images/screenshot.png"
 logo                     : "/assets/images/screenshot.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "/assets/images/screenshot.png"
 header:
   image: "/assets/images/screenshot.png"
 breadcrumbs              : # true, false (default)
