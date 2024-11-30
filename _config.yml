@@ -295,6 +295,8 @@ compress_html:
 # Defaults
 defaults:
   # _posts
+header:
+  image: "/assets/images/screenshot.png"
   - scope:
       path: ""
       type: posts
